@@ -1,0 +1,32 @@
+.table,
+.tr,
+.th,
+.td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 360px;
+  text-align: center;
+}
+
+.th {
+  height: 24px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+
+.tr {
+  height: 24px;
+}
+
+.tr.grey {
+  background-color: #bebebe;
+}
+
+.tc {
+  width: 120px;
+  padding-left: 28px;
+  text-align: start;
+}
